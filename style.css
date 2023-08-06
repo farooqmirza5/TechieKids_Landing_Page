@@ -1,0 +1,787 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@800&family=Finlandica&family=Open+Sans:wght@300;700&family=Raleway:wght@400;700&family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+img{
+    max-width: 100%;
+}
+nav.navbar.navbar-expand-lg {
+    background: transparent;
+    position: absolute;
+    padding-top: 41px;
+    border-bottom: 1px solid #b3b3b3;
+    margin-left: 122px;
+}
+.navbar {
+   
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 65px;
+    padding-right: 127px;
+}
+.nav-list {
+        list-style-type: none;
+       
+    }
+.nav-list .list-item {
+        display: inline-block;
+        padding: 20px 24px;
+        padding-top: 19.5px;
+        padding-bottom: 0.5px;
+    }
+.list-item1 {
+    display: inline-block;
+    padding: 20px 24px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+}
+.navbar a {
+    color: #000000;
+    text-decoration: none;
+ 
+}
+a.button {
+    color: rgb(255 255 255);
+}
+.navbar a:hover {
+        color: rgb(206, 206, 206);
+        }
+.menu{
+    display: none;
+}
+.primary-icon {
+    margin-left: 101px;
+    height: 78px;
+    margin-top: 7px;
+    margin-right: 87px;
+}
+.menu-line {
+    width: 20px;
+    height: 3px;
+    background-color: rgb(24, 24, 24);
+    margin-bottom: 4px;
+}
+
+.fa-search{
+    color: #000000;
+}
+
+@media all and (max-width: 500px) {
+
+.navbar {
+    flex-direction: column;
+    position: relative;
+    }
+.navbar .container-icon {
+    width: 100%;
+    }
+.menu {
+        display: block;
+        position: absolute;
+        right: 26px;
+        top: 27px;
+    }
+.nav-list {
+        list-style-type: none;
+        width: 300px;
+        text-align: center;
+        padding-top: 18px;
+        display: none;
+    }
+
+
+.nav-list .list-item {
+        display: inline-block;
+        padding: 20px 52px;
+    }
+
+.list-item1 {
+        display: block;
+        padding: 20px 24px;
+        padding-top: 0.5px;
+        padding-bottom: 0.5px;
+    }
+.primary-icon {
+        margin-top: 10px;
+        margin-left: 10px;
+        }
+
+
+.active {
+            display: block;
+            }
+
+.icon-div{
+    width:100%
+}
+
+
+
+}
+.button {
+    background-color: #0072BC;
+    border: none;
+    border-radius: 29px;
+    color: #ffffff;
+    padding: 9px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+/* first Section CSS */
+.first-section {
+    background-image: url(./img/background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: left;
+    padding-top: 186px;
+    padding-left: 126px;
+    padding-bottom: 316px;
+}
+.first-section h1 {
+    color: #0072BC;
+    padding-bottom: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+
+}
+.first-section h2 {
+    color: #282828;
+    padding-bottom: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+}
+.first {
+    max-width: 341px;
+}
+.button1 {
+    background-color: #F68832;
+    border: none;
+    border-radius: 29px;
+    color: #000000;
+    padding: 9px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 24px;
+}
+
+
+/* second Section CSS */
+
+.second-section {
+    background-image: url(./img/Group\ 1203.png), url(./img/Frame\ \(4\).png),url(./img/img17.png),url(./img/img18.png),url(./img/img19.png);
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+    background-color: #ffffff;
+    text-align: center;
+    background-size: 400px,400px,91px,92px,92px;
+    background-position: top right,bottom left,0px 73px,131px 386px,center right 81px;
+    padding-bottom: 95px;
+}
+.second-section h2 {
+    color: #0072BC;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 800;
+    font-size: 40px;
+    padding-top: 61px;
+    padding-bottom: 30px;
+}
+.second-section p {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    max-width: 676px;
+    padding-bottom: 14px;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* third Section CSS */
+
+
+.third-section {
+    background-image: url(./img/img21.png);
+    background-repeat: no-repeat;
+    background-size: 157px;
+    background-position: left bottom;
+    padding-bottom: 95px;
+    background-color: rgb(246, 136, 50);
+    text-align: center;
+}
+.third-section h2 {
+    color: #0072BC;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 800;
+    font-size: 40px;
+    padding-top: 61px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.third-section h3 {
+    color: #0072BC;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+
+.third-section p {
+    color: rgb(0, 0, 0);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    max-width: 237px;
+    padding-bottom: 14px;
+    text-align: left;
+}
+.button2 {
+    background-color: #BFD731;
+    border: none;
+    border-radius: 29px;
+    color: #000000;
+    padding: 9px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 77px;
+}
+.third.container {
+    padding-top: 91px;
+}
+.third.col-md-4 {
+    text-align: left;
+    padding-left: 112px;
+}
+
+
+/* fourth Section CSS */
+
+
+.fourth-section {
+    background-image: url(style.css);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 400px, 400px;
+    background-position: right top, left bottom;
+    padding-bottom: 34px;
+    text-align: left;
+    padding-top: 50px;
+    border-bottom: 1px solid rgb(82, 82, 82);
+}
+.fourth-section h2 {
+    color: rgb(0, 114, 188);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+.fourth-section h3 {
+    color: #0072BC;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+.fourth-section p {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    max-width: 993px;
+    padding-bottom: 14px;
+    margin: auto;
+}
+
+/* fifth Section CSS */
+
+
+.fifth-section {
+    padding-bottom: 100px;
+    padding-top: 61px;
+}
+.fifth-section h2 {
+    color: rgb(0, 114, 188);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+/* sixth Section CSS */
+
+
+.sixth-section {
+    background-image: url(./img/img19.png), url(./img/img20.png), url(./img/img21.png);
+    background-color: rgb(245, 245, 245);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 92px, 104px, 141px;
+    background-position: 41px 142px, 1351px 402px, left bottom;
+    padding-bottom: 27px;
+    text-align: left;
+    padding-top: 50px;
+}
+.sixth-section h2 {
+    color: rgb(0, 114, 188);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+.sixth-section h3 {
+    color: #0072BC;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 61px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+.sixth-section p {
+    color: rgb(0, 0, 0);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    padding-bottom: 14px;
+    margin: auto;
+}
+.six.col-md-2 {
+    padding-top: 46px;
+}
+
+
+/* seven Section CSS */
+
+
+.seven-section {
+    background-image: url(./img/img22.png);
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: 116px;
+    background-position: 1178px 442px;
+    padding-bottom: 270px;
+    padding-top: 50px;
+}
+.seven-section h2 {
+    color: rgb(0, 114, 188);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+}
+
+.seven-section p {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    max-width: 993px;
+    padding-bottom: 88px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+  /* eight Section CSS */
+
+
+.eight-section {
+    background-color: #BFD731;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.eight-section h2 {
+    color: rgb(0, 114, 188);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: left;
+    padding-bottom: 27px;
+}
+
+.eight-section p {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    max-width: 993px;
+    padding-bottom: 9px;
+    margin: auto;
+    text-align: left;
+}
+
+.eight {
+    max-width: 470px;
+}
+
+
+
+/* nine Section CSS */
+
+
+.nine-section {
+    
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nine-section h2 {
+    color: rgb(0, 114, 188);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+}
+
+.nine-section h3 {
+    color: rgb(0, 114, 188);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.nine-section p {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    max-width: 993px;
+    padding-bottom: 88px;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* ten Section CSS */
+
+
+.ten-section {
+    background-image: url(style.css);
+    background-color: #ffffff;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 400px, 400px;
+    background-position: right top, left bottom;
+    padding-bottom: 180px;
+    padding-top: 50px;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.ten-section h2 {
+    color: rgb(0, 114, 188);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.ten-section h3 {
+    color: rgb(0, 114, 188);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 11px;
+}
+
+.ten-section h4 {
+    color: rgb(0, 114, 188);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 33px;
+}
+.ten-section p {
+    color: rgb(0, 0, 0);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    max-width: 993px;
+    padding-bottom: 88px;
+    margin: auto;
+    text-align: center;
+}
+.sec10-card {
+    width: 359px;
+   
+   
+    border: 2px solid #0072BC;
+}
+/* eleven Section CSS */
+
+.faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+  }
+  .faq-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 122px;
+}
+  .hr-line{
+  width: 60%;
+  margin: auto;
+  
+  }
+
+  .faq-container h2 {
+    color: rgb(0, 114, 188);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 16px;
+    padding-top: 57px;
+}
+
+  
+  /* Style the buttons that are used to open and close the faq-page body */
+  .faq-page {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+    font-size: 19.6446px;
+  }
+  .faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%; 
+   padding: auto;
+   
+  }
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active,
+  .faq-page:hover {
+    background-color: #F9F9F9;
+  }
+  /* Style the faq-page panel. Note: hidden by default */
+  .faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  .faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  .active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+  }
+
+
+  
+/* twelve Section CSS */
+
+
+.twelve-section {
+    background-color: #0072BC;
+    padding-top: 50px;
+    padding-bottom: 19px;
+    border-bottom: 1px solid rgb(179, 179, 179);
+}
+.twelve-section h2 {
+    color: rgb(255, 255, 255);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    text-align: left;
+    font-weight: 700;
+    font-size: 35px;
+    max-width: 443px;
+    margin-left: 136px;
+}
+::placeholder {
+    color: #FFFFFF;
+    opacity: 0.7; 
+  }
+
+label{
+    position: relative;
+}
+input[type="text"] {
+    width: 418px;
+    height: 56px;
+    padding: 0 16px;
+    border: 1px solid #B3D342;
+    background: transparent;
+}
+.button3 {
+    font-family: Roboto, sans-serif;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #B3D342;
+    color: #0F51A1;
+    padding: 10px 22px 31px 27px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 7px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 7px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+/* last Section CSS */
+
+
+.last-section {
+    background-color: #0072BC;
+    padding-top: 50px;
+    border-bottom: 1px solid rgb(179, 179, 179);
+
+}
+.last-section h2 {
+    color: rgb(255, 255, 255);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 51px;
+    padding-bottom: 20px;
+}
+.last-section p {
+    color: rgb(255, 255, 255);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    max-width: 993px;
+    margin: auto;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+
+.last-icons a{
+    /* font-size: 22px; */
+    color: #ffffff;
+    margin-right: 31px;
+    padding-top: 20px;
+}
+
+.last-icons {
+    padding-top: 5px;
+}
+
+.last.col-md-2 {
+    padding-left: 74px;
+}
+
+
+/* footer Section CSS */
+
+
+.footer-section {
+    background-color: #0072BC;
+    padding-top: 26px;
+}
+.footer-section p {
+    color: rgb(255, 255, 255);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    max-width: 993px;
+    margin: auto;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+
+.foot.col-md-6 {
+    display: flex;
+}
+
+.fa-envelope{
+    color:white;
+  }
+
+  .fa-phone{
+    color: white;
+  }
